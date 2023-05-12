@@ -1,0 +1,6 @@
+streamlit
+facebook-scraper
+pandas
+
+
+
