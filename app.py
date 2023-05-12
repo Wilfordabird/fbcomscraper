@@ -1,6 +1,6 @@
 import streamlit as st
-import facebook_scraper
 import pandas as pd
+import facebook_scraper
 
 def scraping_comments(url):
     options={"comments": 1000}
