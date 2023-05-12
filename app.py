@@ -6,8 +6,6 @@ def scraping_comments(url):
     options={"comments": 1000}
     urls = [url]
     comment_text = []
-    st.write(st.secrets["MY_USER"])
-    st.write(st.secrets["MY_PASS"])
     
     posts = facebook_scraper.get_posts(options = options, post_urls=urls, credentials=tuple({"username": st.secrets["MY_USER"], "password": st.secrets["MY_PASS"]}.values()))
     for post in posts:
