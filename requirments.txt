@@ -1,5 +1,5 @@
 streamlit
-facebook-scraper
+facebook_scraper
 pandas
 
 
